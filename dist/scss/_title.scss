@@ -1,0 +1,40 @@
+.title {
+    position: relative;
+    font-family: Banny;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        width: 36px;
+        height: 5px;
+        background: #E8C300;
+        transform: translateX(-50%);
+    }
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+
+.subtitle_2 {
+    margin-top: 20px;
+    max-width: 600px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}

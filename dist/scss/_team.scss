@@ -1,0 +1,40 @@
+.team {
+    background: url('../images/specialty-bg.jpg') center (center / cover) no-repeat;
+    .block {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head_title {
+        color: #ffffff;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    &_left {
+        width: 50%;
+        margin: 153px 0;
+
+        .title_white, .subtitle_white, .subtitle_2-white {
+            color: #ffffff;
+        }
+    }
+
+    &_right {
+        width: 50%;
+        margin: 47px 0;
+        .foto {
+            position: relative;
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+        
+    }
+}

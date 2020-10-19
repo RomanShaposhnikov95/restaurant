@@ -1,0 +1,30 @@
+.about {
+    .content_about {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &_left {
+        width: 50%;
+        flex-direction: column;
+        display: inline-flex;
+        align-items: center;
+        flex-grow: 1;
+        margin: 217px 0;
+    }
+
+    &_right {
+        flex-shrink: 0;
+        width: 475px;
+        width: 50%;
+        margin: 100px 0;
+        .foto {
+            position: relative;
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    
+}

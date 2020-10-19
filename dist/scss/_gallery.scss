@@ -1,0 +1,9 @@
+.gallery_content {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}

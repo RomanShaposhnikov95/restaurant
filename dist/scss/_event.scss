@@ -1,0 +1,55 @@
+.event {
+    background: url('../images/special-bg.png') center (center / cover) no-repeat;
+    margin-top: 100px;
+    .content_event {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+        .together {
+            display: inline-flex;
+            .foto{
+                position: relative;
+            }
+    
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .black_block {
+                p {
+                    position: absolute;
+                    bottom: 20%;
+                    font-family: Banny;
+                    font-size: 24px;
+                    line-height: 12px;
+                    margin-top: 50px;
+                    color: white;
+                    margin-top: 20px;
+                    color: white;
+                    transform: rotate(-90deg);
+                }
+
+            }
+
+            .black_block_right {
+                p {
+                    bottom: 80%;
+                    transform: rotate(90deg);
+                }
+            }
+
+        }
+
+        .head_title {
+            padding: 40px;
+        }
+
+        .days {
+            margin: 50px 0;
+            color: #ffffff;
+        }
+    }
+}
